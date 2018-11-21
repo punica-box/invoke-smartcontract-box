@@ -1,6 +1,6 @@
 # init-advanced-box
 
-this box implements how to invoke another contract in ont contract.
+this box implements how to invoke another contract in one contract.
 
 `init_advanced` will invoke `contract_a`.
 
