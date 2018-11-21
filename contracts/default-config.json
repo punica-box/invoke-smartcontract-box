@@ -1,0 +1,53 @@
+{
+    "defaultWallet": "wallet.json",
+    "password": {
+        "AUr5QUfeBADq6BMY6Tp5yuMsUNGpsD7nLZ": "password",
+        "AecaeSEBkt5GcBCxwz1F41TvdjX3dnKBkJ": "password",
+        "AQvZMDecMoCi2y4V6QKdJBtHW1eV7Vbaof": "password"
+    },
+    "deployConfig": {
+        "name": "init_advanced",
+        "version": "1.0",
+        "author": "sss",
+        "email": "",
+        "desc": "",
+        "needStorage": true,
+        "payer": "AUr5QUfeBADq6BMY6Tp5yuMsUNGpsD7nLZ",
+        "gasPrice": 0,
+        "gasLimit": 21000000
+    },
+    "invokeConfig": {
+        "abi": "init_advanced_abi.json",
+        "defaultPayer": "AUr5QUfeBADq6BMY6Tp5yuMsUNGpsD7nLZ",
+        "gasPrice": 0,
+        "gasLimit": 20000,
+        "functions": [
+            {
+                "operation": "getData",
+                "args": [
+                    {
+                        "name": "key",
+                        "value": ""
+                    }
+                ],
+                "signers": {},
+                "preExec": true
+            },
+            {
+                "operation": "invokeA",
+                "args": [
+                    {
+                        "name": "operation",
+                        "value": "String:getData"
+                    },
+                    {
+                        "name": "params",
+                        "value": "String:sss"
+                    }
+                ],
+                "signers": {},
+                "preExec": true
+            }
+        ]
+    }
+}
