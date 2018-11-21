@@ -1,8 +1,8 @@
-# init-advanced-box
+# invoke-smartcontract-box
 
 this box implements how to invoke another contract in one contract.
 
-`init_advanced` will invoke `contract_a`.
+smart contract `init_advanced` will invoke smart contract `contract_a`.
 
 ## Usage
 
